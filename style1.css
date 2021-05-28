@@ -1,0 +1,120 @@
+header {
+  background-color: #669999;
+  font-family: arial, hevectia;
+  padding: 15px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-image: url("https://imgix.bustle.com/uploads/shutterstock/2020/5/29/482a0393-467e-4378-9af8-346a5be631f1-shutterstock-1466924747.jpg?w=2000&h=1090&fit=crop&crop=faces&auto=format%2Ccompress&blend=000000&blendAlpha=45&blendMode=normal");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 150px;
+}
+
+p {
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+
+.body {
+	background-image: url("https://1.bp.blogspot.com/-gyfFjszBKFQ/X2tTqPezJFI/AAAAAAAAIw8/japzAo3R8F88fUdcZmwoUDzT2Vp6GlhngCLcBGAsYHQ/s16000/gamer.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+	font-family: arial, hevectia;
+	text-align: center;
+	color: #fff ;
+} 
+
+img{
+	border-radius: 25px;
+	padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-family: arial;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+
+input{
+	display:inline-block;
+	outline: #000;
+	padding:0.35em 1.2em;
+	border:0.1em solid #336699;
+	margin:0 0.3em 0.3em 0;
+	border-radius:25px;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:#000;
+	text-align:center;
+	transition: all 0.2s;
+
+}
+
+input:hover {
+	color:#6699cc;
+}
+
+
