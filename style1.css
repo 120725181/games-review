@@ -130,6 +130,10 @@ input:hover {
   	color: white;
   	cursor: pointer;
   	padding: 1px;
-  	border-radius: 5px;
+  	border-radius: 10px;
 	opacity: 0.8;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
